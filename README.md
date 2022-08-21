@@ -34,7 +34,7 @@ Code is still a work in progress and there may be some issues or errors.
   
 ## To Do...
 
-  * Complete backup functionality
+  * ~~Complete backup functionality~~
   * Add update db function from git.
   * Build telegram bot front-end ## Added telegram requirements.
   * Custom Django front end in progress.
