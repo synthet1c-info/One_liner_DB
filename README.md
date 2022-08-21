@@ -14,6 +14,10 @@ Code is still a work in progress and there may be some issues or errors.
 
 ![image info](images/list.png)
 
+## Notes
+
+ * Add script to your .zshrc file as an alias :P
+
 ## Usage
 ----
 
