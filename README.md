@@ -1,4 +1,4 @@
-## Click Script
+## one_liner_database
 
 A copy and past notepad clickScript python tool to try and group and keep track of useful one liners with copy and paste functionality.
 
