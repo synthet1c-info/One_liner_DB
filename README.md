@@ -8,7 +8,7 @@ Code is still a work in progress and there may be some issues or errors.
 
 ## New Updates 
 
- * Backup basic backup functionality completed :)
+ * Backup : basic backup functionality completed :)
 
 ## Screenshots
 
