@@ -2,6 +2,8 @@
 
 A copy and past notepad clickScript python tool to try and group and keep track of useful one liners with copy and paste functionality.
 
+Code is still a work in progress and there may be some issues or errors.
+
 ## Usage
 ----
 
@@ -22,6 +24,7 @@ A copy and past notepad clickScript python tool to try and group and keep track 
   
 ## To Do...
 
+  * Complete backup functionality
   * Add update db function from git.
   * Build telegram bot front-end ## Added telegram requirements.
   * Custom Django front end in progress.
