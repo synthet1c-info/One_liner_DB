@@ -1,8 +1,10 @@
-## one_liner_database
+## One_liner_database Script
 
 A copy and past notepad clickScript python tool to try and group and keep track of useful one liners with copy and paste functionality.
 
 Code is still a work in progress and there may be some issues or errors.
+
+![](https://komarev.com/ghpvc/?username=Synthet1c-info)
 
 ## New Updates 
 
