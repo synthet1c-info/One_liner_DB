@@ -6,6 +6,8 @@ import os.path
 import argparse
 import pyperclip # Import for copy and paste function
 import sys
+import shutil
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-s', '--search', dest='search', help='Search the Database for tags')
@@ -117,9 +119,11 @@ def db_reset():
         print('Database not deleted!')
 
 def db_backup():
+    print(text_red + 'WARNING : ' + text_end + 'This will over write you previous backup.db file')
     backup = input('To backup your database type YES -> : ')
     if backup == 'YES':
-        print('ready to backup')
+        shutil.copy2('click_scripts.db', 'backup.db')
+        print('Database backup done!')
     else:
         print('no backup done')
 
@@ -159,7 +163,8 @@ def main():
     if args.delete:
         db_delete()
 
-
+    if args.backup:
+        db_backup()
 
 if __name__ == '__main__':
     main()

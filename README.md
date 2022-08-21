@@ -4,6 +4,10 @@ A copy and past notepad clickScript python tool to try and group and keep track 
 
 Code is still a work in progress and there may be some issues or errors.
 
+## New Updates 
+
+ * Backup basic backup functionality completed :)
+
 ## Usage
 ----
 
