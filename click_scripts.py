@@ -42,7 +42,7 @@ if len(sys.argv) < 2:
 
 def intro():
     print('')
-    print (text_cyan + 'Click script: Notepad used to store frequently use one liners with copy and paste functionality' + text_end)
+    print (text_cyan + 'Click script: Notepad used to store frequently used one liners with copy and paste functionality' + text_end)
 
 def db_con():
     print('No database found: Creating new db... ')
@@ -69,7 +69,7 @@ def db_insert():
     c.execute('''INSERT INTO Scripts(command, tags) VALUES(?,?)''', (args.ins, args.tags))
     conn.commit()
     conn.close()
-    print('Items you just inserted')
+    print('Items you just added to the database')
     print(args.ins + " : " + str(args.tags))
 
 def db_list():
@@ -111,7 +111,7 @@ def row_id_search():
         pyperclip.copy('{1}'.format(row[0], row[1], row[2]))
 
 def db_reset():
-    check_del = input(text_red + '**ALERT** type <YES> ONLY if you are sure you want to remove the database: ' + text_end)
+    check_del = input(text_red + '**ALERT** type <YES> ONLY if you are sure you want to reset the database: ' + text_end)
     if check_del == 'YES':
         os.remove('click_scripts.db')
         print('Database removed!')
