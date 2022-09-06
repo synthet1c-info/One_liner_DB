@@ -33,7 +33,7 @@ text_end = '\033[0m'
 
 if len(sys.argv) < 2:
     print('')
-    print(text_cyan + 'Click script: Notepad used to store frequently use one liners with copy and paste functionality :)' + text_end)
+    print(text_cyan + 'Click script: Notepad used to store frequently used one liners with copy and paste functionality :)' + text_end)
     print((''))
     #parser.print_usage()
     print('Please use -h for more options ')
