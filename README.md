@@ -6,6 +6,19 @@ Code is still a work in progress and there may be some issues or errors.
 
 ![](https://komarev.com/ghpvc/?username=Synthet1c-info)
 
+
+# Update notes:
+
+Please take note for the use of pyperclip 
+
+  ```
+  sudo apt-get install xsel to install 
+  ```
+  
+  ``` 
+  sudo apt-get install xclip to install
+```
+
 ## New Updates 
 
  * Backup : basic backup functionality completed :)
